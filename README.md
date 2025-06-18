@@ -14,3 +14,19 @@ In total, the dataset comprises **3 054** unique clinical queries, each paired w
 
 
 
+
+## Test Dataset Overview
+
+This project includes a medical multiple-choice question test set extracted from three professional physician question banks. All questions are single-choice questions with five options (A–E) in JSON Lines format, with one record per line. The fields are described as follows:
+
+- **question** (string): question stem  
+- **options** (object): 5 key-value pairs, with keys `“A”`, `“B”`, `“C”`, `‘D’`, `“E”`, and values corresponding to the option text
+- **answer** (string): Correct option label (`“A”`–`“E”`)
+
+### Test Set Overview
+
+| Test Set              | File Name                            | Number of Questions |  
+|--------------------|------------------------------------|----------|  
+| Cardiovascular Internal Medicine         | `Cardiovascular test.jsonl`        | 97       |  
+| General Medicine/Basic Consultation  | `General medical examination.jsonl`| 98       |  
+| Dermatology             | `Skin test.jsonl`                  | 120      |  
