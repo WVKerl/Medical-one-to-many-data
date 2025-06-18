@@ -10,7 +10,7 @@ The dataset covers three major specialties:
 - **Cardiology**: multi-step evidence integration in complex cardiac cases  
 - **Dermatology**: fine-grained symptom recognition and lesion classification  
 
-In total, the dataset comprises **3 054** unique clinical queries, each paired with **1–5** relevant document segments drawn from peer-reviewed guidelines, government reports, and academic publications.
+In total, the dataset comprises **3 052** unique clinical queries, each paired with **1–5** relevant document segments drawn from peer-reviewed guidelines, government reports, and academic publications.
 
 
 
